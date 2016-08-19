@@ -697,7 +697,7 @@ function get_port_graphs() {
         $columns = $_GET['columns'];
     }
     else {
-        $columns = 'ifName';
+        $columns = 'ifName, ifAlias';
     }
 
     // use hostname as device_id if it's all digits
